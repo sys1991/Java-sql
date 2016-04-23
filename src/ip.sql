@@ -1,0 +1,18 @@
+CREATE DATABASE ip;
+
+CREATE TABLE ip(
+  id INT(6)  UNSIGNED AUTO_INCREMENT PRIMARY KEY ,
+  start VARCHAR(255),
+  end VARCHAR(255),
+  place VARCHAR(2048)
+);
+
+INSERT INTO ip VALUES (NULL ,'','','');
+
+SELECT i.place
+FROM ip i
+WHERE ''BETWEEN i.start AND i.end;
+
+SELECT *
+FROM ip;
+

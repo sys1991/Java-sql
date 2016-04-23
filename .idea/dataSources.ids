@@ -85,4 +85,14 @@
       </column>
     </database-model>
   </data-source>
+  <data-source name="MySQL - @localhost [2]" uuid="9fb08cd7-2e42-4cd8-8918-96fcb498500c">
+    <database-info product="MySQL" version="5.6.30" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="ip"/>
+    </database-model>
+  </data-source>
 </component>
